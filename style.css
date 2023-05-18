@@ -1,0 +1,67 @@
+/* GLOBAL DECLORATIONS
+---------------------------------------------------*/
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+	
+}
+
+h1, h2, h3 {
+	font-family: Cambria, Georgia, serif;
+}
+
+h1, h2 {
+	text-align:center;
+}
+
+h1 {
+	margin-top:0;
+}
+
+h3 {
+	margin:15px 1px 2px 0px;
+	border-left: white 2px solid;
+	padding: 5px 0 5px 8px;
+	background-color: rgba(255,255,255,0.2);
+	font-size:18pt;
+}
+
+p {
+	font-family: Roboto, "Segoe UI", sans-serif;
+	margin:3px 0;
+	padding: 5px 15px 5px;
+}
+
+.updateTier {	
+	background-color: rgba(255,255,255,0.05);
+	padding-bottom:5px;
+}
+
+body {
+	color:#c4c4c4;
+	margin: 0;
+	background: #313338;
+	background-size: cover;
+}
+
+@font-face {
+		font-family:"Trajan Pro";
+		src: (../fonts/TrajanPro.otf);
+}
+
+.map {
+	border: #5A5D66 2px solid;
+	border-radius: 20px;
+	padding: 20px;
+	
+}
+
+.container {
+	max-width: 650px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 5px 15px;
+
